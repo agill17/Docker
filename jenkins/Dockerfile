@@ -17,6 +17,7 @@ RUN wget https://github.com/krallin/tini/releases/download/v0.16.1/tini_0.16.1.r
 
 
 WORKDIR /lib/jenkins
+RUN yum clean all
 
 
 CMD ["tini", "-s", "--", "java", "-jar", "jenkins.war"]

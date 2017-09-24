@@ -6,7 +6,7 @@ services:
     # build:
     #   context: ./tomcat/
     #   dockerfile: tomcat.dockerfile
-    image: agill17/tomcat
+    image: agill17/tomcat:latest
     ports:
       - "9090:8083"
     volumes:
@@ -18,7 +18,7 @@ services:
     # build:
     #   context: ./jenkins/
     #   dockerfile: jenkins.dockerfile
-    image: agill17/jenkins
+    image: agill17/jenkins:latest
     ports:
       - "8080:8080"
     volumes:
@@ -30,7 +30,7 @@ services:
     # build:
     #   context: ./artifactory/
     #   dockerfile: artifactory.dockerfile
-    image: agill17/artifactory
+    image: agill17/artifactory:latest
     ports:
       - "8081:8081"
     volumes:

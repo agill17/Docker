@@ -1,4 +1,4 @@
 # chef_docker_test
 
-TODO: Enter the cookbook description here.
+EHHHH..... I would prefer to write Dockerfile instead but this is cool... I guess
 
